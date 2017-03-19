@@ -5,7 +5,7 @@ Converting Scrapers to pupa
 
     This document is a work-in-progress; if any part of it is unclear, `suggest changes or improvements <http://github.com/openstates/documentation>`_.
 
-As of early 2017, we've embarked on a process to switch away from our legacy backend (billy) that has been in use since 2009, to a more modern backend (pupa) based on the `Open Civic Data <https://github.com/opencivicdata>`_ specification and tools.
+As of early 2017, we've embarked on a process to switch away from our legacy backend (billy) that has been in use since 2009, to a more modern backend (pupa) based on the `Open Civic Data <https://github.com/opencivicdata>`_ (OCD) specification and tools.
 
 This task will require updates to every one of our scrapers. Given that this is such a big task, converting scrapers from billy to pupa is one of the best ways to help out on Open States right now. Follow this guide and start converting a state!
 
@@ -51,7 +51,7 @@ Each state has static metadata found in ``openstates/{{state}}/__init__.py``. Th
 
     **Example diff:** `updated NC metadata <https://github.com/openstates/openstates/commit/3adba1ebe903fc448260b6a75133d6799a5eb27d>`_
 
-At this point you should have a fairly complete OCD jurisdiction defined. Next, we'll move on to converting the legislator scraper.
+At this point you should have a fairly complete Open Civic Data (OCD) jurisdiction defined. Next, we'll move on to converting the legislator scraper.
 
 
 Converting Legislators
